@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color:white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.intro{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rosybrown;
+    position: relative;
+}
+main section{
+    flex-direction: row;
+}
+.intro div{
+    padding: 40px;
+}
+.intro div h1{
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 5px 7px 8px black(174, 28, 174);
+}
+.intro div p{
+font-size: 20px;
+color: white;
+}
+.intro img{
+    background-image: linear-gradient(to bottom red pink white);
+   width: 50%;
+   height: 100%;
+   object-fit: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rosybrown;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+.text{
+    gap: 35px;
+    list-style: none;
+   font-size: px;
+}
+.for{
+    padding: 20px;
+}
+.body{
+    text-align: center;
+    font-size: 70PX;
+}
+.body p{
+    size: 40px
+}
+button{
+    padding: 17px;
+    font-size: 25px;
+    background-size: 30px;
+    background-color: black;
+    color: white;
+    border: 8%;
+   border-radius: 10%;}
+main{
+    background-color: beige;
+    height: 100vh;
+    position: relative;
+}
+main h3{
+    font-size: 30px;
+}
+.about h3{
+    font-size: 30px;
+    background-color: ;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+img{
+    display: flex;
+    align-items: center;
+}
+.about{
+    padding: 15px;
+    flex: 1;
+}
+.ph{
+    padding: 15px;
+}
+.item{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.input{
+    padding: 15px;
+    display: block;
+    margin-bottom: 10px;
+}
+.input h3{
+    font-size: 45px;
+}
+.email{
+    text-decoration: underline;
+}
+main img{
+    flex: 1;
+    width: 410px;
+   height: 100%;
+   object-fit: cover; 
+}
+.introduction .input .ph img{
+    align-items: center;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-form form input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+ .contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border-radius: .8em;
+    margin: 1rem 0;
+    resize: none;
+}
+.contact-form .sit{
+    font-size: 25px;
+    background-size: 30px;
+    background-color: black;
+    color: white;
+    border: 12%;
+    transition: .4s;
+}
+.service{
+    background: rosybrown;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+color: white;
+font-size: 75px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background: rgba(179, 71, 71, 0.662);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(220, 173, 181);
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(228, 202, 207);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgb(220, 173, 181);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 195);
+    cursor: pointer;
+}
+.sit{
+    padding: 17px;
+    font-size: 25px;
+    background-size: 30px;
+    background-color: black;
+    color: white;
+    border: 8%;
+   border-radius: 10%;}
